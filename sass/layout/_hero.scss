@@ -27,9 +27,9 @@
 
 .hero__btn {
   padding: 10px 32px;
-}
 
-.hero__btn:hover,
-.hero__btn:focus {
-  background-color: #188ce8;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }
