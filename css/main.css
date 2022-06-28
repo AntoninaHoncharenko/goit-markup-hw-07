@@ -88,9 +88,9 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.06em;
   color: var(--secondary-color);
   background-color: var(--accent-color);
-  letter-spacing: 0.06em;
   cursor: pointer;
   border: none;
   outline: none;
@@ -147,7 +147,7 @@ img {
 }
 
 .join__title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -309,8 +309,8 @@ img {
   font-weight: 700;
   font-size: 19px;
   line-height: 1.15;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--main-color);
   margin-bottom: 12px;
 }
@@ -361,7 +361,7 @@ img {
   display: block;
   margin-bottom: 4px;
   font-size: 12px;
-  line-height: 1/16;
+  line-height: 1.16;
   letter-spacing: 0.01em;
   color: var(--text-color);
 }
@@ -625,11 +625,11 @@ img {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-color);
   background-color: rgba(47, 48, 58, 0.8);
@@ -863,8 +863,8 @@ img {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  color: var(--main-color);
   letter-spacing: 0.06em;
+  color: var(--main-color);
   margin-bottom: 4px;
 }
 

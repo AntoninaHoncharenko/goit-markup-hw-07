@@ -27,17 +27,12 @@
 }
 
 .team__subtitle {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
+  @include font(500, 16px, 1.18, 0.03em);
   margin-bottom: 10px;
 }
 
 .team__text {
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
+  @include font(null, 16px, 1.18, 0.03em);
   color: var(--text-color);
   margin-bottom: 16px;
 }
